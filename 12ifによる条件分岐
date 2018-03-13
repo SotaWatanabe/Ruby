@@ -6,3 +6,14 @@ elsif 条件式2 then
 else
   # 条件式1と条件式2がどちらとも偽(false)のときに実行する処理
 end
+
+#例
+number = gets.to_i
+
+if number > 0 then
+    puts "#{number}は正の値です"
+elsif number < 0 then
+    puts "#{number}は負の値です"
+else
+    puts "0です"
+end
