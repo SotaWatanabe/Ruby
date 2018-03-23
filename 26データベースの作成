@@ -1,0 +1,24 @@
+#データベースの作成
+#database.ymlというファイルの内容に基づいてデータベースを新規作成
+$ rake db:create
+
+#データベースの視覚化
+#phpMyAdminをインストールする
+$ sudo yum install phpmyadmin
+
+#shellをドラックアンドドロップ
+
+#apacheの起動
+$ sudo service httpd start
+
+#shellフォルダに移動
+$ cd ~/environment/shell
+
+#move.shを実行
+$ sh move.sh
+
+#phpMyAdmin起動
+$ sudo service httpd start
+
+#Mysqlの起動
+$ sudo service mysqld start
