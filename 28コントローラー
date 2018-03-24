@@ -13,3 +13,15 @@ $ rails g controller tweets
 
 #コントローラーの削除
 $ rails d controller コントローラ名
+
+#コントローラーの編集
+#app/controlers/tweets_controller.rb
+class TweetsController < ApplicationController
+
+  #アクション名
+  def index
+  end
+
+end
+
+#tweets_controller.rbの一番最初の行にTweetsControllerと記述してあるのに注。これはコントローラにおけるクラスを示す。コントローラクラスはコントローラのファイル名(tweets_controller.rb)から、単語の先頭を大文字にしてアンダーバーを取った名前(TweetsController)。Railsにおいて名前は重要な意味を持っているので、クラス名が違ったりすると正常に動かなくなる。
