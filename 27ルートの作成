@@ -1,0 +1,7 @@
+#ルートの編集
+Rails.application.routes.draw do
+  get 'tweets' => 'tweets#index'
+end
+
+#tweetsのところがコントローラー
+# #indexのところがアクション名
