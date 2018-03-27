@@ -1,0 +1,8 @@
+gitの操作方法
+
+gitリポジトリの設定
+$ git init
+
+cloud9とgitの連携
+$ ssh-keygen
+$ cat ~/.ssh/id_rsa.pub
